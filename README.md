@@ -15,3 +15,9 @@
 
 This repository holds an archetype for developing
 self-contained Java applications.
+
+## Usage
+
+```
+mvn -B archetype:generate -DarchetypeGroupId=de.elbosso -DarchetypeArtifactId=selfcontained_java_app_archetype -DarchetypeVersion=1.0.0-SNAPSHOT -DgroupId=<groupId> -DartifactId=<artifactId> -Dversion=<version> -DinteractiveMode=false
+```
