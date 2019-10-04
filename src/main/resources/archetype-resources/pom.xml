@@ -39,6 +39,14 @@ WENN SIE AUF DIE MOEGLICHKEIT EINES SOLCHEN SCHADENS HINGEWIESEN WORDEN SIND.
   <groupId>${groupId}</groupId>
   <artifactId>${artifactId}</artifactId>
   <version>${version}</version>
+    <properties>
+        <project.custom.encoding>UTF-8</project.custom.encoding>
+        <project.custom.java.version>11</project.custom.java.version>
+        <project.build.sourceEncoding>${project.custom.encoding}</project.build.sourceEncoding>
+        <project.build.outputEncoding>${project.custom.encoding}</project.build.outputEncoding>
+        <project.reporting.outputEncoding>${project.custom.encoding}</project.reporting.outputEncoding>
+        <project.main.class>Hello</project.main.class>
+    </properties>
   <build>
         <pluginManagement>
             <plugins>
@@ -46,9 +54,9 @@ WENN SIE AUF DIE MOEGLICHKEIT EINES SOLCHEN SCHADENS HINGEWIESEN WORDEN SIND.
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-compiler-plugin</artifactId>
                     <configuration>
-                        <source>11</source>
-                        <target>11</target>
-                        <compilerVersion>11</compilerVersion>
+                        <source>${project.custom.java.version}</source>
+                        <target>${project.custom.java.version}</target>
+                        <compilerVersion>${project.custom.java.version}</compilerVersion>
                     </configuration>
                 </plugin>
                 <plugin>
@@ -58,7 +66,7 @@ WENN SIE AUF DIE MOEGLICHKEIT EINES SOLCHEN SCHADENS HINGEWIESEN WORDEN SIND.
                         <archive>
                             <manifest>
                                 <mainClass>
-                                    Hello
+                                    ${project.main.class}
                                 </mainClass>
                             </manifest>
                         </archive>
@@ -133,15 +141,27 @@ Changelog of this project.
               </execution>
             </executions>
           </plugin-->
+          <plugin>
+              <groupId>org.codehaus.mojo</groupId>
+              <artifactId>exec-maven-plugin</artifactId>
+              <version>1.2.1</version>
+              <executions>
+                  <execution>
+                      <goals>
+                          <goal>java</goal>
+                      </goals>
+                  </execution>
+              </executions>
+              <configuration>
+                  <mainClass>${project.main.class}</mainClass>
+                  <!--arguments>
+                      <argument>foo</argument>
+                      <argument>bar</argument>
+                  </arguments-->
+              </configuration>
+          </plugin>
       </plugins>
     </build>
-    <properties>
-        <project.custom.encoding>UTF-8</project.custom.encoding>
-        <project.custom.java.version>11</project.custom.java.version>
-        <project.build.sourceEncoding>${project.custom.encoding}</project.build.sourceEncoding>
-        <project.build.outputEncoding>${project.custom.encoding}</project.build.outputEncoding>
-        <project.reporting.outputEncoding>${project.custom.encoding}</project.reporting.outputEncoding>
-    </properties>
     <repositories>
         <repository>
             <releases>
@@ -188,7 +208,7 @@ Changelog of this project.
         </dependency>
         <dependency>
             <groupId>de.elbosso</groupId>
-            <artifactId>gfx</artifactId>
+            <artifactId>custommaterialgfx</artifactId>
             <version>0.1.0-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
