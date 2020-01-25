@@ -124,6 +124,7 @@ Changelog of this project.
 
           -->
           <!-- https://github.com/tomasbjerre/git-changelog-maven-plugin/blob/master/git-changelog-maven-plugin-example/pom.xml -->
+          <!-- alternative Ressourcen: https://pypi.org/project/gitchangelog/, https://stackoverflow.com/questions/3523534/good-ways-to-manage-a-changelog-using-git#22492425 -->
           <!--plugin>
             <groupId>se.bjurr.gitchangelog</groupId>
             <artifactId>git-changelog-maven-plugin</artifactId>
@@ -173,12 +174,12 @@ Changelog of this project.
             </releases>
             <id>EL BOSSO</id>
             <name>Juergen Key</name>
-            <url>http://elbosso.github.io/maven2</url>
+            <url>https://elbosso.github.io/maven2</url>
             <layout>default</layout>
         </repository>
         <repository>
             <id>central</id>
-            <url>http://repo1.maven.org/maven2</url>
+            <url>https://repo1.maven.org/maven2</url>
             <releases>
                 <enabled>true</enabled>
             </releases>
@@ -186,7 +187,7 @@ Changelog of this project.
 		<!--BeanShell-->
 		<repository>
 		  <id>Boundless Repository</id>
-		  <url>	http://repo.boundlessgeo.com/main/</url>
+		  <url>	https://repo.boundlessgeo.com/main/</url>
 		</repository>
     </repositories>
     <dependencies>
