@@ -2,8 +2,13 @@
 
 Changelog of selfcontained_java_app_archetype.
 
-## Unreleased
+## 1.0.0
 ### No issue
+
+**preparations for automated maven release management**
+
+
+[c1e96f339a1cbd3](https://github.com/elbosso/selfcontained_java_app_archetype/commit/c1e96f339a1cbd3) Jürgen Key *2020-12-12 07:33:59*
 
 **Revert "maven central repo no longer accessible using http"**
 
