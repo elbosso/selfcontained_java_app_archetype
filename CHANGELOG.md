@@ -2,6 +2,15 @@
 
 Changelog of selfcontained_java_app_archetype.
 
+## Unreleased
+### No issue
+
+**dependency fix**
+
+
+[209e4e751218b38](https://github.com/elbosso/selfcontained_java_app_archetype/commit/209e4e751218b38) Jürgen Key *2020-12-12 07:42:24*
+
+
 ## 1.0.0
 ### No issue
 
