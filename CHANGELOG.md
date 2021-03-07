@@ -5,6 +5,11 @@ Changelog of selfcontained_java_app_archetype.
 ## Unreleased
 ### No issue
 
+**automated maven release management**
+
+
+[7050db266428a0a](https://github.com/elbosso/selfcontained_java_app_archetype/commit/7050db266428a0a) Jürgen Key *2020-12-23 07:40:44*
+
 **preparations for automated maven release management**
 
 
