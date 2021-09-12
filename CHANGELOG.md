@@ -5,6 +5,15 @@ Changelog of selfcontained_java_app_archetype.
 ## Unreleased
 ### No issue
 
+**rtelease 1.3.0**
+
+
+[dacaf5d41c6aa99](https://github.com/elbosso/selfcontained_java_app_archetype/commit/dacaf5d41c6aa99) Jürgen Key *2021-03-07 07:23:22*
+
+
+## 1.3.0
+### No issue
+
 **dependency management improved**
 
 
