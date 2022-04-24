@@ -5,6 +5,11 @@ Changelog of selfcontained_java_app_archetype.
 ## Unreleased
 ### No issue
 
+**change of repository location for de.elbosso artifacts**
+
+
+[76518c478924e7e](https://github.com/elbosso/selfcontained_java_app_archetype/commit/76518c478924e7e) Jürgen Key *2021-09-12 08:53:29*
+
 **rtelease 1.3.0**
 
 

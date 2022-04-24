@@ -34,8 +34,11 @@ WENN SIE AUF DIE MOEGLICHKEIT EINES SOLCHEN SCHADENS HINGEWIESEN WORDEN SIND.
  */
 public class Hello extends java.lang.Object
 {
+	private final static org.slf4j.Logger CLASS_LOGGER =org.slf4j.LoggerFactory.getLogger(Hello.class);
+
 	public static void main(java.lang.String[] args)
 	{
+		CLASS_LOGGER.debug("Hi!");
 		System.out.println("Hi!");
 	}
 }
