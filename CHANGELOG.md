@@ -3,6 +3,19 @@
 Changelog of selfcontained_java_app_archetype.
 
 ## Unreleased
+### GitHub [#1](https://github.com/elbosso/selfcontained_java_app_archetype/issues/1) get rid of log4j and use the new bom dependency
+
+**re #1**
+
+
+[5b12812be0e1f54](https://github.com/elbosso/selfcontained_java_app_archetype/commit/5b12812be0e1f54) Juergen Key *2022-04-24 17:02:29*
+
+**fixes #1**
+
+
+[f39db7fddd87537](https://github.com/elbosso/selfcontained_java_app_archetype/commit/f39db7fddd87537) Juergen Key *2022-04-24 17:01:08*
+
+
 ### No issue
 
 **change of repository location for de.elbosso artifacts**
