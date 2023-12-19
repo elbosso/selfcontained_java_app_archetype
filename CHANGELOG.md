@@ -2,6 +2,15 @@
 
 Changelog of selfcontained_java_app_archetype.
 
+## Unreleased
+### No issue
+
+**new version 2.0 will be java 17 and up!**
+
+
+[f3f94234dbf2cd9](https://github.com/elbosso/selfcontained_java_app_archetype/commit/f3f94234dbf2cd9) Jürgen Key *2022-11-09 19:38:32*
+
+
 ## 1.5.0
 ### GitHub [#1](https://github.com/elbosso/selfcontained_java_app_archetype/issues/1) get rid of log4j and use the new bom dependency
 
